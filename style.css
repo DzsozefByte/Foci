@@ -20,7 +20,18 @@ html, body {
     height: 800px;
     position: relative
 }
-.dropzone:nth-child(1){
+.dropzone {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: lightblue;
+    transition: background-color 0.3s ease;
+}
+
+.dropzone:hover {
+    background-color: lightgreen; 
+}
+.dropzone:nth-child(1){ /* kapus*/
     position: absolute;  
             top: 675px;  
             left: 325px;  
@@ -28,7 +39,7 @@ html, body {
             height: 90px;
             background-color: lightblue;
 }
-.dropzone:nth-child(2){
+.dropzone:nth-child(2){ /* bal-vedo*/
     position: absolute;  
             top: 550px;  
             left: 75px; 
@@ -36,7 +47,7 @@ html, body {
             height: 90px;
             background-color: lightblue;
 }
-.dropzone:nth-child(3){
+.dropzone:nth-child(3){ /* bal-kozep-vedo*/
     position: absolute;  
             top: 550px;  
             left: 230px;  
@@ -44,7 +55,7 @@ html, body {
             height: 90px;
             background-color: lightblue;
 }
-.dropzone:nth-child(4){
+.dropzone:nth-child(4){ /* kozep-jobb-vedo*/
     position: absolute;  
             top: 550px;  
             left: 430px;  
@@ -52,7 +63,7 @@ html, body {
             height: 90px;
             background-color: lightblue;
 }
-.dropzone:nth-child(5){
+.dropzone:nth-child(5){ /* jobb-vedo*/
     position: absolute;  
             top: 550px;  
             left: 580px;  
@@ -84,7 +95,7 @@ html, body {
             height: 90px;
             background-color: lightblue;
 }
-.dropzone:nth-child(9){
+.dropzone:nth-child(9){ /* bal-tamad*/
     position: absolute;  
             top: 200px;  
             left: 130px;  
@@ -92,7 +103,7 @@ html, body {
             height: 90px;
             background-color: lightblue;
 }
-.dropzone:nth-child(10){
+.dropzone:nth-child(10){ /* kozep-tamad*/
     position: absolute;  
             top: 200px;  
             left: 325px; 
@@ -100,7 +111,7 @@ html, body {
             height: 90px;
             background-color: lightblue;
 }
-.dropzone:nth-child(11){
+.dropzone:nth-child(11){ /* jobb-tamad*/
     position: absolute;  
             top: 200px;  
             left: 500px;  
