@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#jatekosok{
+    background-color: aquamarine;
+    display: flex;
+}
+.jatekos{
+    padding: 10px;
+    border: 1px solid;
+    width: fit-content;
+    margin: 5px;
+}
+#palya{
+    background-color: green;
+    margin-top: 30px;
+    float: right;
+    width: 700px;
+    height: 800px;
+    position: relative
+}
+.dropzone:nth-child(1){
+    position: absolute;  
+            top: 675px;  
+            left: 325px;  
+            width: 90px;
+            height: 90px;
+            background-color: lightblue;
+}
+.dropzone:nth-child(2){
+    position: absolute;  
+            top: 550px;  
+            left: 75px; 
+            width: 90px;
+            height: 90px;
+            background-color: lightblue;
+}
+.dropzone:nth-child(3){
+    position: absolute;  
+            top: 550px;  
+            left: 230px;  
+            width: 90px;
+            height: 90px;
+            background-color: lightblue;
+}
+.dropzone:nth-child(4){
+    position: absolute;  
+            top: 550px;  
+            left: 430px;  
+            width: 90px;
+            height: 90px;
+            background-color: lightblue;
+}
+.dropzone:nth-child(5){
+    position: absolute;  
+            top: 550px;  
+            left: 580px;  
+            width: 90px;
+            height: 90px;
+            background-color: lightblue;
+}
+.dropzone:nth-child(6){     /* bal-kozep*/
+    position: absolute;  
+            top: 370px;  
+            left: 170px;  
+            width: 90px;
+            height: 90px;
+            background-color: lightblue;
+}
+.dropzone:nth-child(7){ /* kozep*/
+    position: absolute;  
+            top: 370px;  
+            left: 325px;  
+            width: 90px;
+            height: 90px;
+            background-color: lightblue;
+}
+.dropzone:nth-child(8){ /* jobb-kozep*/
+    position: absolute;  
+            top: 370px;  
+            left: 470px;  
+            width: 90px;
+            height: 90px;
+            background-color: lightblue;
+}
+.dropzone:nth-child(9){
+    position: absolute;  
+            top: 200px;  
+            left: 130px;  
+            width: 90px;
+            height: 90px;
+            background-color: lightblue;
+}
+.dropzone:nth-child(10){
+    position: absolute;  
+            top: 200px;  
+            left: 325px; 
+            width: 90px;
+            height: 90px;
+            background-color: lightblue;
+}
+.dropzone:nth-child(11){
+    position: absolute;  
+            top: 200px;  
+            left: 500px;  
+            width: 90px;
+            height: 90px;
+            background-color: lightblue;
+}
