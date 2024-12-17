@@ -21,7 +21,7 @@ Array.from(hely).forEach(element => {
 
     element.addEventListener('dragover', (event) => {
         event.preventDefault(); // Engedélyezzük az elem áthúzását
-        element.style.backgroundColor = "lightgreen"; // Átmeneti színváltoztatás, jelezve, hogy ide húzható
+        element.style.backgroundColor = "#DA291C"; // Átmeneti színváltoztatás, jelezve, hogy ide húzható
     });
 
     element.addEventListener('dragleave', () => {
