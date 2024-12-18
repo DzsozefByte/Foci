@@ -17,6 +17,8 @@ Array.from(hely).forEach(element => {
         const fogottkartya = document.getElementById(id); // Kártya elem lekérése
         element.appendChild(fogottkartya); // A kártya hozzáadása a célhelyhez
         element.style.backgroundColor = ""; // A háttérszín visszaállítása
+        fogottkartya.style.margin="0px";
+        
     });
 
     element.addEventListener('dragover', (event) => {
