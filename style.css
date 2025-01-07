@@ -29,7 +29,7 @@ background-repeat: repeat;
     margin: 5px;
 }
 #palya{
-    background-color: green;
+    background-image:url(img/pitch.jpg);
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -41,6 +41,7 @@ background-repeat: repeat;
     position: absolute;
 
     background-color: #FBE122;
+    opacity: 40%;
     transition: background-color 0.3s ease;
 }
 
